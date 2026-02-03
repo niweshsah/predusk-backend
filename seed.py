@@ -23,10 +23,10 @@ def seed_database():
         
         # Create main profile
         profile = Profile(
-            name="[YOUR NAME]",
-            email="your.email@example.com",
-            phone="+1 (555) 123-4567",
-            location="San Francisco, CA",
+            name="Niwesh Sah",
+            email="sahniwesh.com",
+            phone="+91 9451864348",
+            location="India",
             bio="Full-Stack Engineer and System Architect with expertise in building scalable web applications. Passionate about clean code, system design, and solving complex problems."
         )
         db.add(profile)
@@ -36,23 +36,23 @@ def seed_database():
         education_data = [
             Education(
                 profile_id=profile.id,
-                institution="University of Technology",
-                degree="Bachelor of Science",
-                field="Computer Science",
-                start_date="2016-09",
-                end_date="2020-05",
-                gpa=3.8,
+                institution="Indian Institute of Technology Mandi",
+                degree="Bachelor of Technology",
+                field="Computer Science and Engineering",
+                start_date="2023-08",
+                end_date="2027-06",
+                gpa=9.1,
                 description="Focus on algorithms, data structures, and software engineering"
             ),
-            Education(
-                profile_id=profile.id,
-                institution="Tech Bootcamp",
-                degree="Full-Stack Web Development Certificate",
-                field="Web Development",
-                start_date="2020-06",
-                end_date="2020-09",
-                description="Intensive program covering React, Node.js, and modern web technologies"
-            )
+            # Education(
+            #     profile_id=profile.id,
+            #     institution="Tech Bootcamp",
+            #     degree="Full-Stack Web Development Certificate",
+            #     field="Web Development",
+            #     start_date="2020-06",
+            #     end_date="2020-09",
+            #     description="Intensive program covering React, Node.js, and modern web technologies"
+            # )
         ]
         db.add_all(education_data)
         
