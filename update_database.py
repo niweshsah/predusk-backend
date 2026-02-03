@@ -12,17 +12,13 @@ import os
 
 load_dotenv()
 
-
 # Get credentials from environment variables
 API_URL = os.getenv("API_URL", "https://me-api-backend.onrender.com")
 USERNAME = os.getenv("ADMIN_USERNAME", "admin")
 PASSWORD = os.getenv("ADMIN_PASSWORD", "hello123")
 
+print(f"Using API URL: {API_URL}")
 
-# Configuration
-# API_URL = "https://me-api-backend.onrender.com"  # Change to your URL
-# USERNAME = "admin"
-# PASSWORD = "YourSecurePassword123"  # Your actual password
 
 # Your complete updated profile
 new_profile_data = {
