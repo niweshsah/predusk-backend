@@ -1,0 +1,194 @@
+{
+    "name": "Niwesh Sah",
+    "email": "niweshsah2@gmail.com",
+    "phone": null,
+    "location": "Mandi, Himachal Pradesh, India",
+    "bio": "B.Tech Computer Science student at IIT Mandi with expertise in Deep Learning, Blockchain, and Full-Stack development. Experienced in developing high-generalization DL pipelines and decentralized platforms.",
+    "id": 1,
+    "created_at": "2026-02-03T01:13:53.768718",
+    "updated_at": "2026-02-03T02:05:00.000000",
+    "education": [
+        {
+            "institution": "Indian Institute of Technology, Mandi",
+            "degree": "B.Tech",
+            "field": "Computer Science and Engineering",
+            "start_date": "2023",
+            "end_date": "2027",
+            "gpa": 3.57,
+            "description": "Original CGPA: 8.92/10. Relevant Coursework: Data Structures, Machine Learning, Deep Learning.",
+            "id": 3
+        },
+        {
+            "institution": "Delhi Public School, Eldeco",
+            "degree": "Senior Secondary (CBSE)",
+            "field": "General Sciences",
+            "start_date": "2020",
+            "end_date": "2022",
+            "gpa": 3.64,
+            "description": "Original Score: 91%.",
+            "id": 4
+        }
+    ],
+    "work_experience": [
+        {
+            "company": "IIT Mandi",
+            "position": "Teaching Assistant (Data Structures and Algorithms)",
+            "description": "Evaluated coursework and guided 200+ students in Data Structures, addressing queries and clarifying algorithmic concepts.",
+            "start_date": "2025-01",
+            "end_date": "2025-05",
+            "is_current": false,
+            "location": "Mandi, India",
+            "id": 4
+        },
+        {
+            "company": "Guidance and Counselling Services",
+            "position": "Volunteering: Guidance and Counselling Services Volunteer",
+            "description": "Mentored 21 freshmen on academic and personal challenges; escalated mental health and substance issues to faculty.",
+            "start_date": "2024-08",
+            "end_date": "2025-05",
+            "is_current": false,
+            "location": "Mandi, India",
+            "id": 5
+        }
+    ],
+    "projects": [
+        {
+            "name": "TumourGen",
+            "description": "Built a DL tumor segmentation pipeline using MedSAM fine-tuned with LoRA adapters. Achieved 8.5% accuracy gain and reduced GPU memory usage by 54%.",
+            "url": null,
+            "github_url": "https://github.com/niweshsah",
+            "demo_url": null,
+            "start_date": "2025-02",
+            "end_date": "2025-04",
+            "status": "completed",
+            "id": 5,
+            "skills": [
+                "Python",
+                "PyTorch",
+                "Deep Learning"
+            ]
+        },
+        {
+            "name": "Ticket Chain",
+            "description": "Decentralized ticketing system on Aptos blockchain ensuring traceable ownership and fraud prevention with automated royalties.",
+            "url": null,
+            "github_url": "https://github.com/niweshsah",
+            "demo_url": null,
+            "start_date": "2025-02",
+            "end_date": "2025-02",
+            "status": "completed",
+            "id": 6,
+            "skills": [
+                "React",
+                "Aptos Blockchain",
+                "Node.js",
+                "Solidity"
+            ]
+        },
+        {
+            "name": "Moon Mapping for ISRO Inter-IIT",
+            "description": "Processed Chandrayaan-2 data to generate elemental ratio maps; enhanced image resolution 3x using sub-pixel interpolation.",
+            "url": null,
+            "github_url": "https://github.com/niweshsah",
+            "demo_url": null,
+            "start_date": "2024-12",
+            "end_date": "2024-12",
+            "status": "completed",
+            "id": 7,
+            "skills": [
+                "Python",
+                "Cartopy",
+                "QGIS"
+            ]
+        },
+        {
+            "name": "Evalia - AI Interview Evaluator",
+            "description": "AI platform with real-time speech-to-text and NLP evaluation engine for technical and behavioral assessment.",
+            "url": null,
+            "github_url": "https://github.com/niweshsah",
+            "demo_url": null,
+            "start_date": "2024-08",
+            "end_date": "Present",
+            "status": "in-progress",
+            "id": 8,
+            "skills": [
+                "FastAPI",
+                "WebSocket",
+                "Google ADK",
+                "NLP"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Python",
+            "level": "expert",
+            "category": "languages",
+            "years_experience": 3.0,
+            "id": 18
+        },
+        {
+            "name": "C++",
+            "level": "expert",
+            "category": "languages",
+            "years_experience": 3.0,
+            "id": 19
+        },
+        {
+            "name": "SQL",
+            "level": "advanced",
+            "category": "languages",
+            "years_experience": 2.0,
+            "id": 20
+        },
+        {
+            "name": "TypeScript",
+            "level": "advanced",
+            "category": "languages",
+            "years_experience": 1.5,
+            "id": 21
+        },
+        {
+            "name": "PyTorch",
+            "level": "expert",
+            "category": "libraries",
+            "years_experience": 2.0,
+            "id": 22
+        },
+        {
+            "name": "ReactJS",
+            "level": "advanced",
+            "category": "frontend",
+            "years_experience": 2.0,
+            "id": 23
+        },
+        {
+            "name": "Solidity",
+            "level": "intermediate",
+            "category": "blockchain",
+            "years_experience": 1.0,
+            "id": 24
+        },
+        {
+            "name": "Node.js",
+            "level": "advanced",
+            "category": "backend",
+            "years_experience": 2.0,
+            "id": 25
+        }
+    ],
+    "social_links": [
+        {
+            "platform": "GitHub",
+            "url": "https://github.com/niweshsah",
+            "icon": "github",
+            "id": 5
+        },
+        {
+            "platform": "LinkedIn",
+            "url": "https://linkedin.com/in/niwesh-sah",
+            "icon": "linkedin",
+            "id": 6
+        }
+    ]
+}

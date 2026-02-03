@@ -13,8 +13,8 @@ load_dotenv()
 security = HTTPBasic()
 
 # Get credentials from environment variables
-ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "admin")
-ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "niweshsah")
+ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "predusk")
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "hello123")
 
 
 def verify_credentials(credentials: HTTPBasicCredentials = Depends(security)) -> str:

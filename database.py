@@ -13,8 +13,9 @@ load_dotenv()
 # Database URL from environment variable
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql://postgres:niweshsah@localhost:5433/me_api_db"
+    "postgresql://postgres:password@localhost:5433/me_api_db"
 )
+
 
 # Convert postgres:// to postgresql:// for SQLAlchemy compatibility (Render uses postgres://)
 if DATABASE_URL.startswith("postgres://"):
